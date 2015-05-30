@@ -1,0 +1,79 @@
+$textSpace:0.3em;
+
+.container {
+    width: 320px;
+  }
+
+@media screen and (max-width: 300px) {
+  .container {
+  }
+}
+
+body{
+  font-size:16px;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header{
+  
+}
+
+.output{
+    margin-left:$textSpace;
+}
+
+.headerInfo{
+    font-size:15px;
+    margin-top:10px;
+    margin-bottom:-7px;
+}
+
+.statement {
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 0.7em;
+  box-shadow: 10px 10px 50px -13px rgba(0,0,0,0.75);
+  margin-bottom:10px;
+  padding:10px;
+}
+span{
+  font-weight:bold;
+  margin:5px;
+}
+input{
+  font-weight:bold;
+}
+input {
+  outline: none;
+  width: 2em;
+  min-width: 30px;
+  max-width: 500px;
+  transition: width 0.25s;
+  margin-left: 0.7em;
+  margin-right: 0.3em;
+  background-color: rgba(255, 255, 255, 0.3);  
+  padding: 0.2em;
+  border: solid 1px rgba(120, 120, 120, 0.4);
+}
+
+.lightblue {
+  background-color: rgba(167,225,245,1);
+}
+
+.yellow {
+  background-color: rgba(254,242,163,1);;
+}
+
+.green {
+  background-color: rgba(191,255,195,1);
+}
+
+.rose {
+  background-color:rgba(243,189,243,1);;
+}
+
+.violet {
+  background-color:rgba(211,214,255,1);;
+}
